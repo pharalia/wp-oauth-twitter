@@ -1,0 +1,135 @@
+.tweets li {
+	padding-bottom: 1.5em;
+	list-style-type: none;
+}
+.widget_twitter ul.tweets {
+	padding-left: 0;
+}
+.tweets li:last-child {
+	border-bottom-width: 0;
+	padding-bottom: 0;
+}
+.twitter-profile-image {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.twitter-profile-name {
+	font-size: 1.1em;
+	display: block;
+}
+.twitter-profile-username {
+	font-style: italic;
+	padding-right: 27px;
+	background: url(twitter-bird-dark-bgs.png) no-repeat right center;
+}
+
+.twitter-profile-name,
+.twitter-profile-username {
+	margin: 0!important;
+}
+
+.twitter-profile-container,
+.twitter-intents-container {
+	margin-bottom: 0!important;
+}
+
+.twitter-profile-container:hover img {
+	border-color: #fff;
+}
+
+.twitter-tweet-container {
+	position: relative;
+}
+
+.twitter-tweet-timestamp {
+	font-size: 0.8em;
+	text-decoration: none;
+	line-height: 1em;
+	display: block;
+}
+
+.twitter-tweet-timestamp sup {
+	vertical-align: super;
+	font-size: 0.65em;
+}
+
+.twitter-profile-container {
+	margin: 0 0 5px 0!important;
+	display: block!important;
+}
+
+.twitter-intents-container {
+	margin: 5px 0 10px 0!important;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.twitter-intents-container a {
+	margin: 0 3px 3px 0;
+	padding: 2px 5px 2px 2px;
+	background: #999;
+	border: solid 1px #777;
+	border-radius: 3px;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	color: #eee!important;
+}
+
+.twitter-intents-container a:hover {
+	background-color: #2194BA;
+}
+
+.twitter-intents-container a * {
+	vertical-align: text-bottom;
+}
+
+.twitter-intents-container a:last-child {
+	margin: 0;
+}
+
+.twitter-intents-container a .icon {
+	background-image: url(everything-spritev2.png);
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 1px;
+}
+
+.twitter-intent-favourite .icon {
+	background-position: -32px 0;
+}
+
+.twitter-intent-favourite:hover .icon {
+	background-position: -48px 0;
+}
+
+.twitter-intent-favourite:active .icon {
+	background-position: -64px 0;
+}
+
+.twitter-intent-reply:hover .icon {
+	background-position: -16px 0;
+}
+
+.twitter-intent-retweet .icon {
+	background-position: -80px 0;
+}
+
+.twitter-intent-retweet:hover .icon {
+	background-position: -96px 0;
+}
+
+.twitter-intent-retweet:active .icon {
+	background-position: -112px 0;
+}
+
+.twitter-tweet-content {
+	padding: 5px 0 5px;
+	font-size: .9em;
+}
+
+.twitter-profile-container{
+	border: none;
+	text-decoration: none;
+}
